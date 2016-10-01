@@ -1,0 +1,11 @@
+{
+  "name": "get-next-dates",
+  "version": "1.0.0",
+  "description": "Returns an array of Date objects of specified length, representing the calendar dates following the one supplied.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ross Barnes <r@rossb.biz>",
+  "license": "ISC"
+}
