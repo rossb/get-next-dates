@@ -1,6 +1,10 @@
 # get-next-dates
 
-Returns an array of Date objects of specified length, representing the calendar dates following the Date object supplied.
+`GetNextDates(range[, startDate])`
+
+Returns an array of Date objects to the specified length, representing the calendar dates following the Date object supplied.
+
+If no date object is supplied, the current time is used as the start date. Range is required, and must be a positive integer. If an invalid range or date is given, an error is thrown.
 
 ## Install
 
