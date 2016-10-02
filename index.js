@@ -4,8 +4,6 @@ const GetNextDate = require('get-next-date');
 function GetNextDates(range, startDate) {
 
 	let nextDates = [];
-	let startDateObj;
-	let nextDateObj;
 
 	if (typeof range !== 'number' || range <= 0) {
 
@@ -13,7 +11,7 @@ function GetNextDates(range, startDate) {
 
 	}
 
-	startDateObj = (startDate === undefined)
+	let startDateObj = (startDate === undefined)
 		? GetMidnightDate(new Date())
 		: GetMidnightDate(startDate);
 
