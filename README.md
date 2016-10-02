@@ -1,6 +1,6 @@
 # get-next-dates
 
-Takes a positive integer `range` and Date object `startDate`, and returns an array of length specified containing Date objects for the following calendar days.
+Returns an array of Date objects of specified length, representing the calendar dates following the Date object supplied.
 
 ## Install
 
